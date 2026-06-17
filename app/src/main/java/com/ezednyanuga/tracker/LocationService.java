@@ -19,7 +19,7 @@ import java.net.URL;
 public class LocationService extends Service {
     private FusedLocationProviderClient client;
     private LocationCallback callback;
-    private final String SERVER_URL = "https://tracking-4lwo.onrender.com/update";
+    private final String SERVER_URL = "https://tracking-41w0.onrender.com/update";
 
     @Override
     public void onCreate() {
