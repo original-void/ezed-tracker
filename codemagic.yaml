@@ -6,6 +6,8 @@ workflows:
     environment:
       java: 17
     scripts:
+      - name: Generate Gradle wrapper
+        script: gradle wrapper --gradle-version 8.0
       - name: Build APK
         script: ./gradlew assembleDebug
     artifacts:
